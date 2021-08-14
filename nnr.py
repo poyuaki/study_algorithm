@@ -87,7 +87,7 @@ def get_initial_node (node_array, initial_position_array):
 
 
 node_array = ["a", "b", "c", "d", "e", "f"]
-now_first_node = node_array[2] # ランダムな初期ノードを設定
+now_first_node = node_array[random.randrange(0, len(node_array))] # ランダムな初期ノードを設定
 initial_position_array = [] # 現在位置として最初に選ばれたノードを格納する配列
 
 node_cost_array = make_cost(node_array)
