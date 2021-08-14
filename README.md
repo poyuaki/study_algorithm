@@ -25,3 +25,18 @@
 - ノード(各拠点)のコストは、ランダムに決まる
 - コストの最小値、コストの最大値は固定
 - 全てのノードが、他ノードへのエッジ(経路)を保有しているものとする
+
+# ダイクストラ法(ファイル名：dijkstra.py)
+
+## 内容
+
+> 最短経路問題を効率的に解くグラフ理論におけるアルゴリズム。スタートノードからゴールノードまでの最短距離とその経路を求めることができる。
+[deq notes](http://www.deqnotes.net/acmicpc/dijkstra/)より
+
+今回のプログラムで用いたテストケースの一例([deq notes](http://www.deqnotes.net/acmicpc/dijkstra/)を参照)<br>
+<img src="https://github.com/poyuaki/study_algorithm/blob/images/%E3%83%80%E3%82%A4%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9.jpg" alt="グラフ理論" height="200">
+
+## 今回のプログラムについて
+
+- 全ての経路を探索して求めている
+- これは確実に改善できる
